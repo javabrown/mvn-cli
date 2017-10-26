@@ -54,23 +54,5 @@
       </build>
     </profile>
   </profiles>
-  <dependencies>
-    <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>6.11</version>
-      <scope>test</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>jcommander</artifactId>
-          <groupId>com.beust</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>snakeyaml</artifactId>
-          <groupId>org.yaml</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-  </dependencies>
 </project>
 
